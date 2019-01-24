@@ -100,6 +100,7 @@ class Reservation extends Component {
                     visible={this.state.showModal}
                     onDismiss={() => { this.toggleModal(); this.resetForm(); }}
                     onRequestClose={() => this.toggleModal()}>
+                    
                     <View style={styles.modal}>
                         <Text style={styles.modalTitle}>Your Reservation</Text>
                         <Text style={styles.modalText}>Number of Guests: {this.state.guests}</Text>
